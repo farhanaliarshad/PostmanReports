@@ -1,24 +1,24 @@
 # 📊 PostmanReports
 
-A structured approach to API testing using **Postman** and **Newman**, with automated test execution and report generation.
+A clean, automated approach to API testing using Postman for test design and Newman for command-line execution and reporting.
 
-> 🚀 This repository showcases how to run API tests from Postman and generate professional reports for validation and documentation purposes.
+> 🚀 This repository demonstrates best practices for managing API tests and generating professional, shareable reports. Ideal for both local testing and CI/CD integration.
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Postman** – for designing and running API tests
-- **Newman** – CLI tool to run Postman collections
-- **HTML Extra Reporter** – for detailed, styled reports
-- **JSON & CLI Reports** – for CI logging and integrations
+**Postman** – API platform used to design and organize test cases and environments
+**Newman**– Command-line tool for running Postman collections in automation workflows
+**HTML Extra Reporter** – For generating rich, styled test reports
+**JSON/CLI Reporters** – For logging, debugging, and CI/CD consumption
 
 ---
 
 ## 📋 Features
 
-- ✅ Postman collections and environments organized in folders  
-- ✅ Newman CLI test runs  
-- ✅ Custom HTML reports using `newman-reporter-htmlextra`  
-- ✅ Environment-specific runs (QA, Dev, Prod)  
-- ✅ Easy integration into CI pipelines (e.g., GitHub Actions, Jenkins)
+-  Postman collections and environments organized in folders  
+-  Newman CLI test runs  
+-  Custom HTML reports using `newman-reporter-htmlextra`  
+-  Environment-specific runs (QA, Dev, Prod)  
+-  Easy integration into CI pipelines (GitHub Actions, Jenkins)
